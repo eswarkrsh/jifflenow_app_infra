@@ -5,6 +5,6 @@
 
 - SSH Key Pair to be generated
 
-- Run: terraform apply -var 'key_name=YOUR_KEY_NAME'
+- Run: terraform apply -var 'key_name=KEY_NAME'
 
 - EC2 userdata to install nginx, and the ELB DNS Name oputpts the nginx page
