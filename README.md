@@ -8,3 +8,14 @@
 - Run: terraform apply -var 'key_name=KEY_NAME'
 
 - EC2 userdata to install nginx, and the ELB DNS Name oputpts the nginx page
+
+# Containers using docker Swarm
+
+- Build image, Tag the image version and push the image to public or privare registry
+
+- Lauch Docker Swarm service on all the machines having one a leader and other join as followers
+
+- Run the built app image and launch as service (docker service command)
+
+- Replicas of service will be load balanced between the EC2 machines
+
